@@ -1,0 +1,181 @@
+
+*{
+    margin:0%;
+    padding:0%
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+.main{
+    background-image: url(bg.jpg);
+    height:89vh;
+    background-position: center center;
+    background-size:max(1200px,100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.main .box{
+    height:89vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding-top: 20px;
+    
+}
+nav img{
+    width: 150px;
+    z-index: 10;
+    position: relative;
+}
+nav button{
+    z-index: 10;
+    position: relative;
+}
+.hero{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    height: calc(100% - 82px);
+    position: relative;
+    padding: 0px 30px ;
+    gap: 23px;
+    text-align: center;
+
+}
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;    
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size:24px;
+     text-align: center;   
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font: size 20px;
+    text-align: center;
+}
+.separation{
+    height:7px;
+    background-color: rgb(45, 44, 44);
+
+}
+.btn{
+    padding: 3px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(49, 47, 47);
+    border-radius: 4px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#eng{
+    background-color: transparent;
+}
+.btnred{
+    background-color: red;
+    color:white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color:red;
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.main input{
+     padding: 7px 101px 10px 14px;
+     font-size: 12px;
+     font-weight: 900;
+     border-radius: 4px;
+     background-color: rgba(23,23,23,0.7);
+     border: 1px solid rgb(245, 239, 239 ,0.5);
+     color: white;
+
+}
+.btnsec{
+    background-color: red;
+    color:white;
+    background-color: red;
+    color:white;
+    padding: 7px 10px 10px 15px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    border-color: red;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 64vw;
+    margin: auto;
+    color: white;
+
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    margin: 30px;
+    width:30vw;
+    z-index: 10;
+    position: relative;
+    
+}
+.secimg video {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    height: 188px;
+    margin: 43px;
+    right: 52px;
+}
+#en{
+    font-size: 48px;
+    font-weight: bolder;
+}
+#wa{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.faq{
+    background-color: rgb(54, 52, 52);
+    height: 80px;
+    width:80vw;   
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+.second{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: white; */
+
+}
+.seimg{
+    margin-left: 162px;
+}
